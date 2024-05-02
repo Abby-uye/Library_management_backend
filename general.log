@@ -1,0 +1,12 @@
+2024-05-02 02:32:52,648 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-05-02 02:37:45,186 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-05-02 02:40:39,781 (INFO) - django.utils.autoreload - C:\Users\regiu\PycharmProjects\libraryManagementSystem\libraryManagementSystem\settings.py changed, reloading.
+2024-05-02 02:40:39,784 (INFO) - django.utils.autoreload - C:\Users\regiu\PycharmProjects\libraryManagementSystem\libraryManagementSystem\settings.py changed, reloading.
+2024-05-02 02:40:41,559 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-05-02 02:40:41,564 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-05-02 02:41:22,040 (INFO) - django.utils.autoreload - C:\Users\regiu\PycharmProjects\libraryManagementSystem\libraryManagementSystem\settings.py changed, reloading.
+2024-05-02 02:41:22,112 (INFO) - django.utils.autoreload - C:\Users\regiu\PycharmProjects\libraryManagementSystem\libraryManagementSystem\settings.py changed, reloading.
+2024-05-02 02:41:23,280 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-05-02 02:41:23,330 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-05-02 02:42:00,312 (WARNING) - django.request - Unauthorized: /catalogue/authors/
+2024-05-02 02:42:01,005 (WARNING) - django.request - Not Found: /favicon.ico

@@ -20,6 +20,7 @@ class Book(models.Model):
     genre = models.ManyToManyField(Genre)
     author = models.ForeignKey('Author', on_delete=models.CASCADE)
 
+
     def __str__(self):
         return f"{self.title}  {self.genre}"
 
@@ -59,3 +60,21 @@ class BookInstance(models.Model):
 
     def __str__(self):
         return f"{self.status}"
+
+
+class Review(models.Model):
+    book = models.ForeignKey('Book', on_delete=models.CASCADE)
+    name = models.CharField(max_length=255)
+    review = models.TextField()
+    date = models.DateField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.book} - {self.review}"
+
+
+class BookImage(models.Model):
+    book = models.ForeignKey('Book', on_delete=models.CASCADE,related_name="book_images")
+    image = models.ImageField(upload_to='catalog/images')
+#     install pillow to use images pipenv install pillow
+
+

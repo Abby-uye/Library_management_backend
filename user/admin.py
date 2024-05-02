@@ -13,7 +13,7 @@ class  LibraryUserAdmin(UserAdmin):
             None,
             {
                 "classes": ("wide",),
-                "fields": ("username", "password1", "password2","first_name", "last_name"),
+                "fields": ("username", "password1", "password2","first_name", "last_name", 'email'),
             },
         ),
     )
